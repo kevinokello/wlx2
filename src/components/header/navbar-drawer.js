@@ -58,7 +58,7 @@ const NavbarDrawer = () => {
           ))}
         </Box>
         <Button variant="primary" sx={styles.donateNow}>
-          Purchase Now
+          Contact Us
         </Button>
       </Box>
     </Drawer>

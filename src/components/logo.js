@@ -18,8 +18,8 @@ const styles = {
     display: 'inline-flex',
     maxWidth: [null, null, null, 185, null, 'none'],
     svg: {
-      height: 'auto',
-      width: [128, null, '100%'],
+      height: '1',
+      width: [128, null, '50%'],
     },
   },
 };

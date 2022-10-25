@@ -3,8 +3,7 @@ import { Box, Container, Flex, Heading, Text, Image, Link } from "theme-ui";
 import line from "assets/roadmap-line.svg";
 const ROAD_MAP_DATA = {
   blockTitle: {
-    title: "Meet the Roadmap",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing",
+    title: "Our Approach",
   },
   posts: [
     {
@@ -29,7 +28,7 @@ const RoadMap = () => {
   const { blockTitle, posts } = ROAD_MAP_DATA;
   const { title, text } = blockTitle;
   return (
-    <Box as="section" id="roadmap" sx={styles.section}>
+    <Box as="section" id="blog" sx={styles.section}>
       <Image src={line} sx={styles.shapeLine} alt="line image" />
       <Container sx={styles.container}>
         <Box sx={styles.blockTitle}>
@@ -51,7 +50,6 @@ const RoadMap = () => {
           ))}
         </Flex>
       </Container>
-    
     </Box>
   );
 };

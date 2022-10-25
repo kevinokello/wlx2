@@ -13,15 +13,15 @@ import icon3 from 'assets/images/icons/services/s2.png';
 const data = [
   {
     id: 1,
-    icon: icon1,
+    icon: icon2,
     title: "Web App Development",
-    description: `At Webluxra, We offer pixel perfect responsive website design services which are built around aesthetics and usability.`,
+    description: `At Webluxra, We offer pixel perfect responsive MVC web and app design services which are built around aesthetics and usability.`,
   },
   {
     id: 2,
-    icon: icon2,
-    title: "Creative Agency",
-    description: `Webluxra’s product design services cover entire product design lifecycle, From prototyping to fully functional design.`,
+    icon: icon1,
+    title: "API Integrations",
+    description: `We pride ourselves on clean, well-tested integrations that are reliable and keep data in sync as needed.`,
   },
   {
     id: 3,
@@ -60,6 +60,7 @@ const settings = {
     },
   ],
 };
+
 
 const Services = () => {
   return (

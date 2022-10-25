@@ -60,9 +60,10 @@ const OtherServices = () => {
     <Box as="section" sx={styles.section}>
       <Container>
         <SectionHeading
+          id="faq"
           sx={styles.heading}
-          title="Other services you must appreciate"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred."
+          title="Technologies we use"
+          description="We build all of our projects using a single tech stack Laravel (backend), Vue.js,Nuxt and Tailwindcss (frontend), Flutter and React Native (mobile apps), and cloud (hosting)."
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (
