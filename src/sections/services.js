@@ -1,6 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Container } from 'theme-ui';
+
 import Slider from 'react-slick';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
