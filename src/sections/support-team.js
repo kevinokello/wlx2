@@ -3,7 +3,7 @@
 import { jsx, Box, Container, Heading, Text } from "theme-ui";
 import SupportType from "components/cards/support-type";
 import Image from "components/image";
-import illustration from "assets/images/rbg.png";
+import illustration from "assets/images/tab-illustration-1.png";
 import icon1 from "assets/images/icons/1.png";
 import icon2 from "assets/images/icons/2.png";
 

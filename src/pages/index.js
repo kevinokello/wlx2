@@ -1,16 +1,18 @@
-import React from 'react';
-import { ThemeProvider } from 'theme-ui';
-import theme from 'theme';
-import SEO from 'components/seo';
-import Layout from 'components/layout';
-import Banner from 'sections/banner';
-import Services from 'sections/services';
-import VideoCalling from 'sections/video-calling';
-import Pricing from 'sections/pricing';
-import Clients from 'sections/clients';
-import Blog from 'sections/blog';
-import Faq from 'sections/faq';
-import Support from 'sections/support-team';
+import React from "react";
+import { ThemeProvider } from "theme-ui";
+import theme from "theme";
+import SEO from "components/seo";
+import Layout from "components/layout";
+import Banner from "sections/banner";
+import Services from "sections/services";
+import VideoCalling from "sections/video-calling";
+import Pricing from "sections/pricing";
+import Clients from "sections/clients";
+import Blog from "sections/blog";
+import Faq from "sections/faq";
+import WorkFlow from "../sections/workflow";
+import TeamSection from "../sections/team-section";
+import TestimonialCard from "../sections/testimonial";
 
 export default function IndexPage() {
   return (
@@ -24,10 +26,10 @@ export default function IndexPage() {
         <Services />
         <VideoCalling />
         <Pricing />
-        <Clients />
         <Blog />
+        <Clients />
         <Faq />
-        <Support />
+        <TeamSection />
       </Layout>
     </ThemeProvider>
   );

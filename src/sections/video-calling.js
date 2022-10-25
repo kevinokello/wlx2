@@ -3,7 +3,7 @@
 import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Image from 'components/image';
-import videoCalling from 'assets/images/bn.jpg';
+import videoCalling from 'assets/images/balancing.svg';
 
 const VideoCalling = () => {
   return (

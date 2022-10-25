@@ -51,11 +51,7 @@ const RoadMap = () => {
           ))}
         </Flex>
       </Container>
-      <Box sx={styles.buttonWrap}>
-        <Link sx={styles.button} href="#">
-          SEE FULL Roadmap
-        </Link>
-      </Box>
+    
     </Box>
   );
 };
