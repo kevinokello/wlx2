@@ -28,8 +28,6 @@ export default function IndexPage() {
         <Pricing />
         <Blog />
         <Clients />
-        <Faq />
-        <TeamSection />
       </Layout>
     </ThemeProvider>
   );

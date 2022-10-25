@@ -3,20 +3,19 @@
 import { jsx, Box, Container } from "theme-ui";
 import SectionHeading from "components/section-heading";
 import Service from "components/cards/service";
-import icon4 from "assets/images/icon-laravel.png";
-import icon5 from "assets/images/icon-laravel.png";
-import icon6 from "assets/images/icon-laravel.png";
-import icon7 from "assets/images/icon-laravel.png";
-import icon8 from "assets/images/icon-laravel.png";
-import icon9 from "assets/images/icon-laravel.png";
+import icon4 from "assets/images/vl.png";
+import icon5 from "assets/images/image.svg";
+import icon6 from "assets/images/node.png";
+import icon7 from "assets/images/react.png";
+import icon8 from "assets/images/nxt.svg";
+import icon9 from "assets/images/and.png";
 
 const data = [
   {
     id: 1,
     icon: icon4,
-    moreLink: "#learn-more",
-    title: "3D modeling & art",
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: "Laravel",
+    description: `Go with Laravel — a mature and agile PHP framework that concentrates on the best practices.`,
   },
   {
     id: 2,

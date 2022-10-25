@@ -1,5 +1,9 @@
 export default [
   {
+    path: "!#",
+    label: "Home",
+  },
+  {
     path: "services",
     label: "Services",
   },
@@ -18,5 +22,9 @@ export default [
   {
     path: "faq",
     label: "Technologies",
+  },
+  {
+    path: "cool",
+    label: "Hire Us",
   },
 ];

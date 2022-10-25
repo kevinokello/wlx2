@@ -46,8 +46,8 @@ export default function Header() {
                 <NavLink key={i} path={path} label={label} />
               ))}
             </nav>
-            <Button variant="primary" sx={styles.button}>
-Contact Us            </Button>
+            {/* <Button variant="primary" sx={styles.button}>
+Contact Us            </Button> */}
             <NavbarDrawer />
           </Container>
         </header>

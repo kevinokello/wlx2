@@ -5,7 +5,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-scroll';
 import { DrawerContext } from 'contexts/drawer/drawer-context';
 import Drawer from 'components/drawer';
-import Logo from 'components/logo';
+// import Logo from "assets/images/icon.png";
 import menuItems from './header.data';
 import close from 'assets/images/icons/close.png';
 
@@ -40,7 +40,9 @@ const NavbarDrawer = () => {
       closeBtnStyle={styles.close}
     >
       <Box sx={styles.wrapper}>
-        <Logo sx={styles.logo} />
+        {/* <Link path="/">
+          <Image src={Logo} alt="Logo" sx={styles.logo} />
+        </Link> */}
         <Box as="ul" sx={styles.navbar}>
           {menuItems.map(({ path, label }, i) => (
             <Box as="li" key={i}>
@@ -57,9 +59,9 @@ const NavbarDrawer = () => {
             </Box>
           ))}
         </Box>
-        <Button variant="primary" sx={styles.donateNow}>
+        {/* <Button variant="primary" sx={styles.donateNow}>
           Contact Us
-        </Button>
+        </Button> */}
       </Box>
     </Drawer>
   );

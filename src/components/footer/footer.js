@@ -17,7 +17,7 @@ export default function Footer() {
           
           </Box>
           <Text sx={styles.footer.copyright}>
-            Copyright by {new Date().getFullYear()} RedQ, Inc
+            Copyright {new Date().getFullYear()} Webluxra.
           </Text>
         </Box>
       </Container>
