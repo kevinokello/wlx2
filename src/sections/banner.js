@@ -13,7 +13,7 @@ import {
 import { rgba } from 'polished';
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'components/image';
-import illustration from 'assets/images/banner.png';
+import illustration from 'assets/images/balancing.svg';
 
 const Banner = () => {
   return (
@@ -21,28 +21,16 @@ const Banner = () => {
       <Container sx={styles.container}>
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
-            <div sx={styles.newsUpdate}>
-              <span>NEWS</span>
-              We have updated our term &amp; condition policy{' '}
-              <IoIosArrowForward
-                color={rgba('#02073E', 0.3)}
-                size="14px"
-                sx={{ ml: 1 }}
-              />
-            </div>
             <Heading as="h1">
-              Engage your website visitors using support management tools
+              Empowering you to digitally transform customer experience
             </Heading>
             <Text as="p">
-              Explore 50+ integrations that make your day-to-day workflow more
-              efficient and familiar. Our extensive developer tools might also
-              strike your fancy website.
+              Webluxra is a progressive and insightful web design agency in
+              Kenya, technically and creatively skilled to translate your brand
+              with digital products on web, mobile and connected platforms.
             </Text>
             <div sx={styles.buttonGroup}>
-              <Button variant="primary">Try free trial</Button>
-              <Button variant="white" className="white">
-                Discover in video
-              </Button>
+              <Button variant="primary">Learn More</Button>
             </div>
           </Box>
           <Flex as="figure" sx={styles.illustration}>

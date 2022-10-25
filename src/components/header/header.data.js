@@ -1,30 +1,34 @@
 export default [
   {
-    path: 'home',
-    label: 'Home',
+    path: "home",
+    label: "Home",
   },
   {
-    path: 'services',
-    label: 'Services',
+    path: "services",
+    label: "Services",
   },
   {
-    path: 'features',
-    label: 'Feature',
+    path: "features",
+    label: "Feature",
   },
   {
-    path: 'pricing',
-    label: 'Pricing',
+    path: "why-us",
+    label: "Why Us",
   },
   {
-    path: 'our-clients',
-    label: 'Our Clients',
+    path: "pricing",
+    label: "Pricing",
   },
   {
-    path: 'blog',
-    label: 'Blog',
+    path: "our-clients",
+    label: "Our Clients",
   },
   {
-    path: 'faq',
-    label: 'Faq',
+    path: "blog",
+    label: "Blog",
+  },
+  {
+    path: "faq",
+    label: "Faq",
   },
 ];

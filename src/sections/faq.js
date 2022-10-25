@@ -7,6 +7,7 @@ import FaqItem from 'components/cards/faq-item';
 
 const data = [
   {
+    
     id: 1,
     ques: 'Which domain should I purchase?',
     ans: `We make it easy to move to CometNine. Simply contact us and we'll move your hosting account from any other provider, regardless of the control panel. If at anytime your website is down for more than 0.1% result`,

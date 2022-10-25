@@ -46,14 +46,6 @@ const PriceTable = ({ data }) => {
             <FeatureIcon value={data.support} />
           </li>
         </Box>
-        <Button
-          sx={styles.button}
-          variant="primaryOutline"
-          className={data.is_recommended ? 'recommended' : ''}
-        >
-          Choose Plan
-        </Button>
-        <span sx={styles.trial}>{data.trial_period} days free trial</span>
       </div>
     </div>
   );

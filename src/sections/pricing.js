@@ -104,7 +104,7 @@ const Pricing = () => {
         <Box sx={styles.grid}>
           {isTablet && (
             <ul sx={styles.features}>
-              <li>Full Access Library</li>
+              <li>Third Party Integrations</li>
               <li>Multiple user</li>
               <li>Refund Policy</li>
               <li>Google Analytics</li>

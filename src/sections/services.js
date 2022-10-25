@@ -5,28 +5,28 @@ import Slider from 'react-slick';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 
-import icon1 from 'assets/images/icons/services/1.png';
-import icon2 from 'assets/images/icons/services/2.png';
-import icon3 from 'assets/images/icons/services/3.png';
+import icon1 from 'assets/images/icons/services/s.svg';
+import icon2 from 'assets/images/icons/services/s1.png';
+import icon3 from 'assets/images/icons/services/s2.png';
 
 const data = [
   {
     id: 1,
     icon: icon1,
-    title: 'For Individuals',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: "Web App Development",
+    description: `At Webluxra, We offer pixel perfect responsive website design services which are built around aesthetics and usability.`,
   },
   {
     id: 2,
     icon: icon2,
-    title: 'For Team',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: "Creative Agency",
+    description: `Webluxra’s product design services cover entire product design lifecycle, From prototyping to fully functional design.`,
   },
   {
     id: 3,
     icon: icon3,
-    title: 'For Organization',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: "Digital Marketing",
+    description: `Increase conversions. Increase leads. Increase sales. Increase revenue. That's digital marketing services from Webluxra.`,
   },
 ];
 

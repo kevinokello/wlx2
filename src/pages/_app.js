@@ -6,6 +6,7 @@ import { initGA, logPageView } from 'analytics';
 */
 import 'rc-drawer/assets/index.css';
 import 'assets/css/react-slick.css';
+// import "rc-tabs/assets/index.css";
 
 export default function CustomApp({ Component, pageProps }) {
   /** 

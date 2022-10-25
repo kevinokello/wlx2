@@ -3,16 +3,16 @@
 import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Image from 'components/image';
-import videoCalling from 'assets/images/video-calling.png';
+import videoCalling from 'assets/images/bn.jpg';
 
 const VideoCalling = () => {
   return (
     <section sx={styles.section} id="features">
       <Container>
         <SectionHeading
-          title="Introducing video calling support"
-          description="Every email, web page, and social media post makes an impression on your customers. With our software you can be confident it's impression."
-          learnMore="Explore Details"
+          title="We are experts in bringing brands to life digitally"
+          description=" We stay updated with the technology to build innovative digital products that meet client requirements across multiple business verticals and domains by housing some of the best professionals in the industry."
+          learnMore=""
           sx={{ mb: [6] }}
         />
         <Box as="figure" sx={styles.illustration}>
