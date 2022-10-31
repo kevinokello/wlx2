@@ -7,18 +7,6 @@ import { initGA, logPageView } from 'analytics';
 import 'rc-drawer/assets/index.css';
 import 'assets/css/react-slick.css';
 // import "rc-tabs/assets/index.css";
-import dynamic from "next/dynamic";
-
-const CrispWithNoSSR = dynamic(() => import("../components/crisp"), {
-  ssr: false,
-});
-export default function App() {
-
-    return (
-      <Router>
-          <CrispWithNoSSR />
-      </Router>)
-}
 
 export default function CustomApp({ Component, pageProps }) {
   /** 
