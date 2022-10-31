@@ -23,8 +23,5 @@ export default [
     path: "faq",
     label: "Technologies",
   },
-  {
-    path: "cool",
-    label: "Hire Us",
-  },
+ 
 ];

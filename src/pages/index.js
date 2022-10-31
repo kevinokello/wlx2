@@ -9,17 +9,14 @@ import VideoCalling from "sections/video-calling";
 import Pricing from "sections/pricing";
 import Clients from "sections/clients";
 import Blog from "sections/blog";
-import Faq from "sections/faq";
-import WorkFlow from "../sections/workflow";
-import TeamSection from "../sections/team-section";
-import TestimonialCard from "../sections/testimonial";
+
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Support System Landing"
+          title="Digital design agency"
           description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
         />
         <Banner />

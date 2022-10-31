@@ -82,32 +82,7 @@ export const menuItems = [
       },
     ],
   },
-  {
-    id: 5,
-    title: 'Connect',
-    items: [
-      {
-        path: '#!',
-        icon: facebook,
-        label: 'Facebook',
-      },
-      {
-        path: '#!',
-        icon: twitter,
-        label: 'Twitter',
-      },
-      {
-        path: '#!',
-        icon: github,
-        label: 'Github',
-      },
-      {
-        path: '#!',
-        icon: dribbble,
-        label: 'Dribbble',
-      },
-    ],
-  },
+  
 ];
 
 export const footerNav = [
