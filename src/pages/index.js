@@ -11,6 +11,7 @@ import Clients from "sections/clients";
 import Blog from "sections/blog";
 
 
+
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
