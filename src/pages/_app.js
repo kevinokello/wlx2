@@ -16,16 +16,6 @@ export default function CustomApp({ Component, pageProps }) {
      Router.events.on('routeChangeComplete', logPageView);
    }, []);
    */
-useEffect(() => {
-  window.$crisp = [];
-  window.CRISP_WEBSITE_ID = "0a0fe994-0166-4acd-ba01-f78afa76ee79";
-  (() => {
-    const d = document;
-    const s = d.createElement("script");
-    s.src = "https://client.crisp.chat/l.js";
-    s.async = 1;
-    d.getElementsByTagName("body")[0].appendChild(s);
-  })();
-});
+
   return <Component {...pageProps} />;
 }
