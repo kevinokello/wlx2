@@ -6,12 +6,20 @@ import { initGA, logPageView } from 'analytics';
 */
 import 'rc-drawer/assets/index.css';
 import 'assets/css/react-slick.css';
-import Script from "next/script";
 // import "rc-tabs/assets/index.css";
 
 export default function CustomApp({ Component, pageProps }) {
-     <Script id="tawk" strategy="lazyOnload">
-       {`
+  /** 
+   useEffect(() => {
+     initGA();
+     logPageView();
+     Router.events.on('routeChangeComplete', logPageView);
+   }, []);
+   */
+  return <Component {...pageProps} />;
+    <>
+      <Script id="tawk" strategy="lazyOnload">
+        {`
             var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
             (function(){
             var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -22,8 +30,6 @@ export default function CustomApp({ Component, pageProps }) {
             s0.parentNode.insertBefore(s1,s0);
             })();
         `}
-     </Script>;
-
-  return <Component {...pageProps} />;
-  
+      </Script>
+    </>;
 }
