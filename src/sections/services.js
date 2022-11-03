@@ -9,7 +9,7 @@ import Feature from 'components/cards/feature';
 import icon2 from 'assets/images/icons/2.png';
 import icon1 from 'assets/images/icons/cap-ajax.svg';
 import icon3 from 'assets/images/icons/1.png';
-import icon4 from "assets/images/icons/2.png";
+import icon4 from "assets/images/react.png";
 import icon5 from "assets/images/icons/services/d2.png";
 import icon6 from "assets/images/icons/services/d1.png";
 
@@ -17,8 +17,8 @@ const data = [
   {
     id: 1,
     icon: icon2,
-    title: "Web App Development",
-    description: `At Webluxra, We offer pixel perfect responsive MVC web and app design services which are built around aesthetics and usability.`,
+    title: "Web Development",
+    description: `We customize and scale your web application service according to your business type. The goal is to ensure your business leads while others follow.`,
   },
   {
     id: 2,
@@ -35,8 +35,8 @@ const data = [
   {
     id: 4,
     icon: icon4,
-    title: "Web App Development",
-    description: `At Webluxra, We offer pixel perfect responsive MVC web and app design services which are built around aesthetics and usability.`,
+    title: "App Development",
+    description: `At Webluxra, We offer pixel perfect responsive MVC app design services which are built around aesthetics and usability.`,
   },
   {
     id: 5,
