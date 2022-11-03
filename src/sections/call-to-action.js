@@ -16,7 +16,7 @@ const CallToAction = () => {
             Do you have any question? Feel free to contact 
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Button variant="text">Contact us now</Button>
+            <Button variant="text">@email webluxra@outlook.com/ @phone +254 724 071 015</Button>
           </Box>
         </Box>
       </Container>

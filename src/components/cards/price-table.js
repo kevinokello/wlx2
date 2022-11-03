@@ -15,14 +15,14 @@ const FeatureIcon = ({ value }) => {
 const PriceTable = ({ data }) => {
   return (
     <div sx={styles.card} className={data.is_recommended ? 'recommended' : ''}>
-      {data.is_recommended && <span sx={styles.recommended}>Recommended</span>}
+
       <div
         sx={styles.priceTable}
         className={data.is_recommended ? 'recommended' : ''}
       >
         <span sx={styles.title}>{data.title}</span>
         <span sx={styles.amount}>
-          ${data.amount}/<small>per mo.</small>
+
         </span>
         <Box as="ul" variant="styles.unStyled" sx={styles.features}>
           <li>

@@ -10,14 +10,19 @@ const VideoCalling = () => {
     <section sx={styles.section} id="features">
       <Container>
         <SectionHeading
-          title="We are experts in bringing brands to life digitally"
-          description=" We stay updated with the technology to build innovative digital products that meet client requirements across multiple business verticals and domains by housing some of the best professionals in the industry."
-          learnMore=""
+          title="Go beyond ultimate Services"
+         learnMore=""
           sx={{ mb: [6] }}
         />
         <Box as="figure" sx={styles.illustration}>
           <Image src={videoCalling} alt="Video Calling" />
         </Box>
+        <SectionHeading
+
+          description=" We stay updated with the technology to build innovative digital products that meet client requirements across multiple business verticals and domains by housing some of the best professionals in the industry."
+          learnMore=""
+          sx={{ mb: [6] }}
+        />
       </Container>
     </section>
   );

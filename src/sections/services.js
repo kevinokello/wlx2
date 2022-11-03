@@ -6,9 +6,12 @@ import Slider from 'react-slick';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 
-import icon1 from 'assets/images/icons/services/s.svg';
-import icon2 from 'assets/images/icons/services/s1.png';
-import icon3 from 'assets/images/icons/services/s2.png';
+import icon2 from 'assets/images/icons/2.png';
+import icon1 from 'assets/images/icons/cap-ajax.svg';
+import icon3 from 'assets/images/icons/1.png';
+import icon4 from "assets/images/icons/2.png";
+import icon5 from "assets/images/icons/services/d2.png";
+import icon6 from "assets/images/icons/services/d1.png";
 
 const data = [
   {
@@ -26,6 +29,24 @@ const data = [
   {
     id: 3,
     icon: icon3,
+    title: "Digital Marketing",
+    description: `Increase conversions. Increase leads. Increase sales. Increase revenue. That's digital marketing services from Webluxra.`,
+  },
+  {
+    id: 4,
+    icon: icon4,
+    title: "Web App Development",
+    description: `At Webluxra, We offer pixel perfect responsive MVC web and app design services which are built around aesthetics and usability.`,
+  },
+  {
+    id: 5,
+    icon: icon5,
+    title: "API Integrations",
+    description: `We pride ourselves on clean, well-tested integrations that are reliable and keep data in sync as needed.`,
+  },
+  {
+    id: 6,
+    icon: icon6,
     title: "Digital Marketing",
     description: `Increase conversions. Increase leads. Increase sales. Increase revenue. That's digital marketing services from Webluxra.`,
   },
@@ -69,7 +90,7 @@ const Services = () => {
         <SectionHeading
           sx={styles.heading}
           slogan="Ideal solutions for you"
-          title="Go beyond ultimate Services"
+          title=""
         />
         <Slider sx={styles.features} {...settings}>
           {data?.map((item) => (

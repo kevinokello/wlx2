@@ -30,7 +30,7 @@ const Banner = () => {
               with digital products on web, mobile and connected platforms.
             </Text>
             <div sx={styles.buttonGroup}>
-              <Button variant="primary">Learn More</Button>
+              {/* <Button variant="primary">Learn More</Button> */}
             </div>
           </Box>
           <Flex as="figure" sx={styles.illustration}>

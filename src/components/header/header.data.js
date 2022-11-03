@@ -13,7 +13,7 @@ export default [
   },
   {
     path: "pricing",
-    label: "Pricing",
+    label: "Plans",
   },
   {
     path: "blog",

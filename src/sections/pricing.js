@@ -10,44 +10,40 @@ const data = [
   {
     id: 1,
     title: 'Starter Pack',
-    amount: 18.99,
-    is_recommended: false,
-    library_access: true,
-    multiple_user: true,
-    refund_policy: false,
-    google_analytics: false,
-    support: false,
-    trial_period: 15,
-  },
-  {
-    id: 2,
-    title: 'Premium Pack',
-    amount: 23.99,
-    is_recommended: true,
-    library_access: true,
-    multiple_user: true,
-    refund_policy: true,
-    google_analytics: false,
-    support: false,
-    trial_period: 30,
-  },
-  {
-    id: 3,
-    title: 'Custom Pack',
-    amount: 29.99,
     is_recommended: false,
     library_access: true,
     multiple_user: true,
     refund_policy: true,
     google_analytics: true,
-    support: false,
+    support: true,
+    trial_period: 15,
+  },
+  {
+    id: 2,
+    title: 'Premium Pack',
+    is_recommended: true,
+    library_access: true,
+    multiple_user: true,
+    refund_policy: true,
+    google_analytics: true,
+    support: true,
+    trial_period: 30,
+  },
+  {
+    id: 3,
+    title: 'Custom Pack',
+    is_recommended: true,
+    library_access: true,
+    multiple_user: true,
+    refund_policy: true,
+    google_analytics: true,
+    support: true,
     trial_period: 30,
   },
   {
     id: 4,
     title: 'Ultimate Pack',
-    amount: 35.99,
-    is_recommended: false,
+    is_recommended: true,
     library_access: true,
     multiple_user: true,
     refund_policy: true,
@@ -60,7 +56,7 @@ const data = [
 const settings = {
   // slidesToShow: 3,
   // slidesToScroll: 1,
-  arrows: false,
+  arrows: true,
   dots: true,
   speed: 500,
   responsive: [
@@ -81,7 +77,7 @@ const settings = {
       breakpoint: 767,
       settings: {
         fade: true,
-        infinite: false,
+        infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
       },
@@ -98,8 +94,7 @@ const Pricing = () => {
       <Container>
         <SectionHeading
           sx={{ mb: [6, null, null, 14] }}
-          slogan="Deal for your business"
-          title="Meet our pricing plan that suit you"
+          title="Plans ideal for you"
         />
         <Box sx={styles.grid}>
           {isTablet && (

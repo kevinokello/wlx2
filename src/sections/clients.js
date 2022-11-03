@@ -20,36 +20,31 @@ const data = [
   {
     id: 2,
     icon: icon5,
-    moreLink: "#learn-more",
-    title: "Digital promotion",
+    title: "Next Js",
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
   {
     id: 3,
     icon: icon6,
-    moreLink: "#learn-more",
-    title: "Business Enterprise",
+    title: "Node Js",
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
   {
     id: 4,
     icon: icon7,
-    moreLink: "#learn-more",
-    title: "Marketing & advertising",
+    title: "React",
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
   {
     id: 5,
     icon: icon8,
-    moreLink: "#learn-more",
-    title: "Ultimate development",
+    title: "Vue Js",
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
   {
     id: 6,
     icon: icon9,
-    moreLink: "#learn-more",
-    title: "Online support",
+    title: "Android Development",
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
 ];
@@ -62,7 +57,7 @@ const OtherServices = () => {
           id="faq"
           sx={styles.heading}
           title="Technologies we use"
-          description="We build all of our projects using a single tech stack Laravel (backend), Vue.js,Nuxt and Tailwindcss (frontend), Flutter and React Native (mobile apps), and cloud (hosting)."
+          description=""
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (

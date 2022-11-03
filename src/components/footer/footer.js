@@ -13,18 +13,7 @@ export default function Footer() {
   return (
     <Fragment>
       <CallToAction />
-      <Box as="footer" sx={styles.footer}>
-        <Container>
-          <Box sx={styles.footerTopInner}>
-            <Box sx={styles.about}>
-    
-            </Box>
-            {menuItems.map(({ id, title, items }) => (
-              <Widget key={id} title={title} items={items} />
-            ))}
-          </Box>
-        </Container>
-      </Box>
+  
     </Fragment>
   );
 }
