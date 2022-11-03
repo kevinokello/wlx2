@@ -6,7 +6,7 @@ import Sticky from 'react-stickynode';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
 import NavbarDrawer from './navbar-drawer';
 // import Logo from 'components/logo';
-import Logo from "assets/images/icon.png";
+import Logo from "assets/images/logo.png";
 import { NavLink } from 'components/link';
 import { Link } from "components/link";
 
@@ -103,6 +103,6 @@ const styles = {
     display: "inline-flex",
     maxWidth: [null, null, null, 185, null, "none"],
       height: "10",
-      width: [5, null, "15%"],
+      width: [8, null, "30%"],
   },
 };

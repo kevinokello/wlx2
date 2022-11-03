@@ -25,9 +25,8 @@ const Banner = () => {
               Empowering you to digitally transform customer experience
             </Heading>
             <Text as="p">
-              Webluxra is a progressive and insightful web design agency in
-              Kenya, technically and creatively skilled to translate your brand
-              with digital products on web, mobile and connected platforms.
+              What do you want to [code, build, debug, deploy, collaborate on,
+              analyze, learn] today?
             </Text>
             <div sx={styles.buttonGroup}>
               {/* <Button variant="primary">Learn More</Button> */}
