@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { ThemeProvider } from "theme-ui";
 import theme from "theme";
 import SEO from "components/seo";
@@ -9,7 +9,7 @@ import VideoCalling from "sections/video-calling";
 import Pricing from "sections/pricing";
 import Clients from "sections/clients";
 import Blog from "sections/blog";
-
+import ChatwootWidget from "../components/ChatwootWidget";
 
 
 export default function IndexPage() {
@@ -26,6 +26,10 @@ export default function IndexPage() {
         <Pricing />
         <Blog />
         <Clients />
+         <Fragment>
+    <ChatwootWidget />
+
+  </Fragment>
       </Layout>
     </ThemeProvider>
   );
