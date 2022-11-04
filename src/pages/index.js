@@ -6,7 +6,7 @@ import Layout from "components/layout";
 import Banner from "sections/banner";
 import Services from "sections/services";
 import VideoCalling from "sections/video-calling";
-import Pricing from "sections/pricing";
+// import Pricing from "sections/pricing";
 import Clients from "sections/clients";
 import Blog from "sections/blog";
 import ChatwootWidget from "../components/ChatwootWidget";
@@ -23,7 +23,7 @@ export default function IndexPage() {
         <Banner />
         <Services />
         <VideoCalling />
-        <Pricing />
+        {/* <Pricing /> */}
         <Blog />
         <Clients />
          <Fragment>

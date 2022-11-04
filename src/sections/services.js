@@ -17,37 +17,37 @@ const data = [
   {
     id: 1,
     icon: icon2,
-    title: "Web Development",
+    title: "#Web Development",
     description: `We customize and scale your web application service according to your business type. The goal is to ensure your business leads while others follow.`,
   },
   {
     id: 2,
     icon: icon1,
-    title: "API Integrations",
+    title: "#API Integrations",
     description: `We pride ourselves on clean, well-tested integrations that are reliable and keep data in sync as needed.`,
   },
   {
     id: 3,
     icon: icon3,
-    title: "Digital Marketing",
+    title: "#Digital Marketing",
     description: `Increase conversions. Increase leads. Increase sales. Increase revenue. That's digital marketing services from Webluxra.`,
   },
   {
     id: 4,
     icon: icon4,
-    title: "App Development",
+    title: "#App Development",
     description: `At Webluxra, We offer pixel perfect responsive MVC app design services which are built around aesthetics and usability.`,
   },
   {
     id: 5,
     icon: icon5,
-    title: "API Integrations",
+    title: "#API Integrations",
     description: `We pride ourselves on clean, well-tested integrations that are reliable and keep data in sync as needed.`,
   },
   {
     id: 6,
     icon: icon6,
-    title: "Digital Marketing",
+    title: "#Digital Marketing",
     description: `Increase conversions. Increase leads. Increase sales. Increase revenue. That's digital marketing services from Webluxra.`,
   },
 ];

@@ -33,19 +33,19 @@ const data = [
     id: 4,
     icon: icon7,
     title: "React",
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    description: `With React, we can quickly create single-page applications that load instantly and update themselves in real-time without needing to refresh your browser.`,
   },
   {
     id: 5,
     icon: icon8,
     title: "Vue Js",
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    description: `Go with Vue — a progressive framework for building web applications that are agile, reusable and maintainable.`,
   },
   {
     id: 6,
     icon: icon9,
     title: "Android Development",
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    description: `We are ready to tailor your idea for mobile into a state-of-the-art app. We coordinate around your vision, to bring you the next generation app in line with today’s development standards.`,
   },
 ];
 

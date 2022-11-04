@@ -11,10 +11,10 @@ export default [
     path: "features",
     label: "Feature",
   },
-  {
-    path: "pricing",
-    label: "Plans",
-  },
+  // {
+  //   path: "pricing",
+  //   label: "Plans",
+  // },
   {
     path: "blog",
     label: "Approach",

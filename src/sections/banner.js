@@ -22,7 +22,7 @@ const Banner = () => {
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
             <Heading as="h1">
-              Empowering you to digitally transform customer experience
+              Tech artists that shape your ideas into reality
             </Heading>
             <Text as="p">
               What do you want to [code, build, debug, deploy, collaborate on,
