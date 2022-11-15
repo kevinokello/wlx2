@@ -44,7 +44,7 @@ const data = [
   {
     id: 6,
     icon: icon9,
-    title: "Android Development",
+    title: "React Native",
     description: `We are ready to tailor your idea for mobile into a state-of-the-art app. We coordinate around your vision, to bring you the next generation app in line with today’s development standards.`,
   },
 ];

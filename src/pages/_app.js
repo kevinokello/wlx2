@@ -4,10 +4,14 @@ import { useEffect } from 'react';
 import Router from 'next/router';
 import { initGA, logPageView } from 'analytics';
 */
+import dynamic from "next/dynamic";
 import 'rc-drawer/assets/index.css';
 import 'assets/css/react-slick.css';
 // import "rc-tabs/assets/index.css";
-
+const CrispWithNoSSR = dynamic(
+  () => import('../components/crisp'),
+  { ssr: false }
+)
 export default function CustomApp({ Component, pageProps }) {
   /** 
    useEffect(() => {

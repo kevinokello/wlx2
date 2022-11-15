@@ -10,10 +10,14 @@ import VideoCalling from "sections/video-calling";
 import Clients from "sections/clients";
 import Blog from "sections/blog";
 import ChatwootWidget from "../components/ChatwootWidget";
+import dynamic from "next/dynamic";
 
-
+const CrispWithNoSSR = dynamic(() => import("../components/crisp"), {
+  ssr: false,
+});
 export default function IndexPage() {
   return (
+    
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO

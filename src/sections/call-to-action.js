@@ -13,10 +13,12 @@ const CallToAction = () => {
       <Container sx={styles.container}>
         <Box sx={styles.contentBox}>
           <Heading sx={styles.heading}>
-            Do you have any question? Feel free to contact 
+            Send us a note here or give us a call.
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Button variant="text">@email webluxra@outlook.com/ @phone +254 724 071 015</Button>
+            <Button variant="text">
+              @webluxra@outlook.com/ +254 724 071 015
+            </Button>
           </Box>
         </Box>
       </Container>

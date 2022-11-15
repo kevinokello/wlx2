@@ -1,8 +1,8 @@
 export default [
-  {
-    path: "!#",
-    label: "Home",
-  },
+  // {
+  //   path: "!#",
+  //   label: "Home",
+  // },
   {
     path: "services",
     label: "Services",
@@ -17,7 +17,7 @@ export default [
   // },
   {
     path: "blog",
-    label: "Approach",
+    label: "How we work",
   },
   {
     path: "faq",
