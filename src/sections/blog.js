@@ -4,16 +4,16 @@ import line from "assets/roadmap-line.svg";
 const ROAD_MAP_DATA = {
   blockTitle: {
     title: "Our Approach",
-    text: "Our design process follows a proven approach. We begin with a deep understanding of your needs and create a planning template.",
+    // text: "Our design process follows a proven approach. We begin with a deep understanding of your needs and create a planning template.",
   },
   posts: [
     {
       title: "1. Requirement Gathering",
-      text: "This is our very first step in designing your effective website. We gather requirements and analyze these requirements based on your company goals, target audience and objectives.",
+      text: "We gather requirements and analyze these requirements based on your company goals, target audience and objectives.",
     },
     {
       title: "2. Creating a Workflow",
-      text: "The key to a successful website design is planning. Before we start any project we listen to the goals you are trying to achieve and gain an understanding of your business so that we can visualise it within the design process.",
+      text: "Before we start any project we listen to the goals you are trying to achieve and gain an understanding of your business so that we can visualise it within the design process.",
     },
     {
       title: "3. Mockup",
@@ -21,7 +21,7 @@ const ROAD_MAP_DATA = {
     },
     {
       title: "4. Development",
-      text: "This part of the design process will often be shapedd by existing branding elements, colour choices, and logos, as stipulated by the you.",
+      text: "This part of the design process will often be shaped by existing branding elements, colour choices, and logos, as stipulated by the you.",
     },
     {
       title: "5. Deployment",
@@ -29,7 +29,7 @@ const ROAD_MAP_DATA = {
     },
     {
       title: "6. Support & Maintenance",
-      text: "It doesn’t stop there, with ongoing support ensuring your website continues to deliver results. We monitor, review and analyse how successful your website is performing, making sure it is delivering on its core goals.",
+      text: "And our expertise doesn’t stop there, with ongoing support ensuring your website continues to deliver results. We monitor, review and analyse how successful your website is performing.",
     },
   ],
 };
