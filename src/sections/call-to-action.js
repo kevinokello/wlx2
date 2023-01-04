@@ -13,11 +13,11 @@ const CallToAction = () => {
       <Container sx={styles.container}>
         <Box sx={styles.contentBox}>
           <Heading sx={styles.heading}>
-            Send us a note here or give us a call.
+            Whatsapp or give us a call.
           </Heading>
           <Box sx={styles.btnWrapper}>
             <Button variant="text">
-              @webluxra@outlook.com/ +254 724 071 015
+               +254 724 071 015
             </Button>
           </Box>
         </Box>

@@ -8,7 +8,7 @@ import Feature from "components/cards/feature";
 
 import icon2 from "assets/images/icons/webb.png";
 import icon1 from "assets/images/icons/api.png";
-import icon3 from "assets/images/icons/app.png";
+import icon3 from "assets/images/and.png";
 
 
 const data = [

@@ -8,7 +8,7 @@ import icon5 from "assets/images/image.svg";
 import icon6 from "assets/images/node.png";
 import icon7 from "assets/images/react.png";
 import icon8 from "assets/images/nxt.svg";
-import icon9 from "assets/images/and.png";
+import icon9 from "assets/images/icons/app.png";
 
 const data = [
   {

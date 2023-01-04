@@ -13,7 +13,7 @@ import {
 import { rgba } from 'polished';
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'components/image';
-import illustration from 'assets/images/customer.png';
+import illustration from 'assets/images/2.png';
 
 const Banner = () => {
   return (
